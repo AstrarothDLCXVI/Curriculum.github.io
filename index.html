@@ -3,200 +3,354 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi CV - Especialista en TCG y Anime</title>
+    <title>AstraDev</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            
-            <h1 class="name">José Miguel</h1>
-            <p class="subtitle">Especialista en TCG, Anime y Manga</p>
-            <div class="contact-info">
-                <div class="contact-item">📧 josemiguelrodriguezmarin66@gmail.com</div>
-                <div class="contact-item">📱 +34 671 39 38 93</div>
-                <div class="contact-item">📍 Sevilla, Andalucía, España</div>
-                <div class="contact-item">🚗 Carnet de conducir: Si</div>
+    <!-- Navegación -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">AstraDev</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#studies">Estudios</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section con Foto -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-container">
+                <div class="profile-image-wrapper">
+                    <img src="img/profile.jpg" alt="Foto de perfil" class="profile-image">
+                    <div class="profile-image-border"></div>
+                </div>
+                <h2 class="profile-name">Astra</h2>
+
+                <!-- Redes Sociales -->
+                <div class="social-icons">
+                    <a href="https://github.com/astrarothdlcxvi" target="_blank" title="GitHub">
+                        <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@astraMusicAnimeLofi" target="_blank" title="YouTube">
+                        <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <h1>Desarrollador Full-Stack</h1>
+            <p>Creando experiencias digitales innovadoras</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="cta-button">Ver Proyectos</a>
+                <a href="#contact" class="cta-button-outline">Contactar</a>
             </div>
         </div>
+    </section>
 
-        <div class="section">
-            <h2 class="section-title">
-                Sobre Mí
-            </h2>
-            <p style="font-size: 1.1em; line-height: 1.6;">
-                Amante del mundo TCG, anime y manga con amplio conocimiento en juegos de cartas, 
-                anime y cómics. Deportista, sociable y con habilidades para la atención al cliente.
+    <!-- Sobre Mí -->
+    <section id="about">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="about-content">
+            <p class="about-text">
+                Soy desarrollador full-stack Junior. Me estoy especializando en tecnologías como JavaScript, React, Node.js y Python, Django, Flask y SQL. Me gustaría seguir aprendiendo y creciendo en el campo del desarrollo web, adquiriendo experiencia práctica y colaborando en proyectos desafiantes.
             </p>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>17+</h3>
+                    <p>Proyectos Completados</p>
+                </div>
+                <div class="stat">
+                    <h3>2+</h3>
+                    <p>Años de Experiencia</p>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="grid">
-            <div class="section" id="tcg">
-                <h2 class="section-title">
-                    Trading Card Games
-                </h2>
-                <div class="card">
-                    <h3>Juegos Favoritos</h3>
-                    <ul class="favorites-list">
-                        <li>Yu-Gi-Oh!</li>
-                        <li>Pokémon TCG</li>
+    <!-- Estudios -->
+    <section id="studies">
+        <h2 class="section-title">Formación Académica</h2>
+        <div class="studies-container">
+            <div class="study-card">
+                <div class="study-icon"></div>
+                <div class="study-content">
+                    <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+                    <h4>Colegio San José SSCC (FESAC) - Sevilla</h4>
+                    <p class="study-date">2023 - 2025</p>
+                </div>
+            </div>
+            
+            <div class="study-card">
+                <div class="study-icon"></div>
+                <div class="study-content">
+                    <h3>Ciclo Formativo Grado Medio Técnico en Sistemas Microinformáticos y Redes</h3>
+                    <h4>Altair - Sevilla</h4>
+                    <p class="study-date">2021 - 2023</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience">
+        <h2 class="section-title">Experiencia Profesional</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Desarrollador Full Stack (Prácticas)</h3>
+                    <h4>GAZC</h4>
+                    <p class="timeline-date">2025 (Marzo) - 2025 (Junio)</p>
+                    <ul>
+                        <li>Desarrollo web</li>
+                        <li>Implementación de APIs</li>
+                        <li>Trabajo con bases de datos</li>
+                        <li>Colaboración en proyectos ágiles</li>
+                        <li>Tecnologías: HTML, CSS, JavaScript, Python(fastApi, Django)</li>
                     </ul>
                 </div>
-                <br>
-                <div class="card">
-                    <h3>Conocimientos</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">Reglas y Formatos</div>
-                        <div class="skill-item">Meta Actual</div>
-                        <div class="skill-item">Deck Building</div>
-                        <div class="skill-item">Torneos</div>
-                        <div class="skill-item">Precios de Mercado</div>
-                        <div class="skill-item">Cartas Raras</div>
-                    </div>
-                </div>
             </div>
 
-            <div class="section" id="anime">
-                <h2 class="section-title">
-                    Anime & Manga
-                </h2>
-                <div class="card">
-                    <h3>Series Favoritas</h3>
-                    <ul class="favorites-list">
-                        <li>Attack on Titan</li>
-                        <li>Demon Slayer</li>
-                        <li>My Hero Academia</li>
-                        <li>Jujutsu Kaisen</li>
-                        <li>Tokyo Revengers</li>
-                        <li>Kaiju No. 8</li>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Técnico de redes TIC (Prácticas)</h3>
+                    <h4>Doble F</h4>
+                    <p class="timeline-date">2025 (Marzo) - 2025 (Junio)</p>
+                    <ul>
+                        <li>Instalación de redes</li>
+                        <li>Montaje y mantenimiento de equipo</li>
+                        <li>Administrador de sistemas</li>
+                        <li>Desarrollo web</li>
                     </ul>
                 </div>
             </div>
-        </div>
 
-        <div class="section" id="estudios">
-            <h2 class="section-title">
-                <span class="section-icon">🎓</span>
-                Formación Académica
-            </h2>
-            <div class="experience-item">
-                <div class="date">2021 - 2023</div>
-                <h3>Ciclo Formativo Grado Medio Técnico en Sistemas Microinformáticos y Redes</h3>
-                <p>Altair - Sevilla</p>
-                <p>Técnico en Sistemas Microinformáticos y Redes</p>
-            </div>
-            <div class="experience-item">
-                <div class="date">2023 - 2025</div>
-                <h3>Ciclo Formativo Grado Superior</h3>
-                <p>Colegio San José SSCC (FESAC) - Sevilla</p>
-                <p>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</p>
-            </div>
         </div>
+    </section>
 
-        <div class="section" id="experiencia">
-            <h2 class="section-title">
-                <span class="section-icon">💼</span>
-                Experiencia y Habilidades
-            </h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Habilidades Técnicas</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">Atención al Cliente</div>
-                        <div class="skill-item">Gestión de Inventario</div>
-                        <div class="skill-item">Organización de Eventos</div>
-                        <div class="skill-item">Redes Sociales</div>
-                        <div class="skill-item">Ventas</div>
-                        <div class="skill-item">Resolución de Problemas</div>
-                        <div class="skill-item">Desarrollo web</div>
-                        <div class="skill-item">Desarrollo backend</div>
-                        <div class="skill-item">Desarrollo frontend</div>
-                        <div class="skill-item">Python</div>
-                        <div class="skill-item">JavaScript</div>
-                        <div class="skill-item">HTML & CSS</div>
-                        <div class="skill-item">SQL</div>
-                        <div class="skill-item">Git</div>
-                        <div class="skill-item">Trabajo en equipo</div>
-                        <div class="skill-item">Inglés (B1)</div>
+    <!-- Proyectos -->
+    <section id="projects">
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <a class="project-link" href="https://astrarothdlcxvi.github.io/styles_gallery_css.github.io/index.html" target="_blank">
+                    <div class="project-image">
+                        <img class="project-icon" src="img/style.png">
+                        <div class="project-overlay">
+                            <span>Ver Detalles</span>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <h3>Experiencia Relevante</h3>
-                    <div class="experience-item">
-                        <div class="date">2019 - Presente</div>
-                        <h4>Participante Activo en Torneos TCG</h4>
-                        <p>Participación regular en torneos locales y regionales.</p>
+                    <div class="project-info">
+                        <h3>STYLES GALLERY</h3>
+                        <p>Galería de estilos HTML, CSS y JavaScript (en desarrollo)</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
                     </div>
-                    <div class="experience-item">
-                        <div class="date">2023 - 2023 (Practicas)</div>
-                        <h4>Técnico de redes TIC</h4>
-                        <p>Instalación de redes, Montaje y mantenimiento de equipo, Administrador de sistemas, Desarrollo de paginas web</p>
-                    </div>
-                    <div class="experience-item">
-                        <div class="date">2025 - 2025 (Practicas)</div>
-                        <h4>Desarrollador Full Stack</h4>
-                        <p>Desarrollo de aplicaciones web, Implementación de APIs, Trabajo con bases de datos, Colaboración en proyectos ágiles</p>
-                        <p>Tecnologías: HTML, CSS, JavaScript, Python(fastApi, Django)</p>
-                    </div>
-                </div>
+                </a>
             </div>
-        </div>
 
-        <div class="section">
-            <h2 class="section-title">
-                <span class="section-icon">🌟</span>
-                ¿Por qué elegirme?
-            </h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>🔥 Pasión Genuina</h3>
-                    <p>Mi amor por el anime, manga y TCGs no es solo un hobby, es un estilo de vida que me permite conectar auténticamente con los clientes.</p>
-                </div>
-                <div class="card">
-                    <h3>📖 Conocimiento Profundo</h3>
-                    <p>Mantengo actualizado mi conocimiento sobre lanzamientos, meta de juegos, tendencias del anime y novedades del mercado.</p>
-                </div>
-                <div class="card">
-                    <h3>🤝 Habilidades Sociales</h3>
-                    <p>Capacidad para crear un ambiente acogedor, resolver dudas y fomentar la comunidad entre los clientes de la tienda.</p>
-                </div>
-                <div class="card">
-                    <h3>🎯 Orientado a Resultados</h3>
-                    <p>Enfoque en crear experiencias memorables que conviertan visitas en ventas y clientes ocasionales en habituales.</p>
-                </div>
+            <div class="project-card" onclick="openModal('project2')">
+                <a class="project-link" href="https://astrarothdlcxvi.github.io/AstraMusic.github.io/" target="_blank">
+                    <div class="project-image">
+                        <img class="project-icon" src="img/logo.jpg">
+                        <div class="project-overlay">
+                            <span>Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AstraMusic</h3>
+                        <p>Web de musica personal donde puedes escuchar y descubrir nueva música. (en desarrollo)</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-card" onclick="openModal('project3')">
+                <a class="project-link" href="https://astrarothdlcxvi.github.io/AstraCodeLab.github.io/" target="_blank">
+                    <div class="project-image">
+                        <img class="project-icon" src="img/astraCode.jpg">
+                        <div class="project-overlay">
+                            <span>Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AstraCodeLab</h3>
+                        <p>Web para aprender fundamentos basicos de lenguajes de programacion (en desarrollo)</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
             </div>
         </div>
-    </div>
+    </section>
 
-    <script>
-        function scrollToSection(sectionId) {
-            const element = document.getElementById(sectionId);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
 
-        // Animaciones suaves al hacer scroll
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        });
 
-        // Aplicar animaciones a las secciones
-        document.addEventListener('DOMContentLoaded', () => {
-            const sections = document.querySelectorAll('.section');
-            sections.forEach((section, index) => {
-                section.style.opacity = '0';
-                section.style.transform = 'translateY(50px)';
-                section.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
-                observer.observe(section);
-            });
-        });
-    </script>
+    <!-- Habilidades -->
+    <section id="skills">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-wrapper">
+            <div class="skills-category">
+                <h3>Lenguajes</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <span class="skill-name">HTML5</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS3</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Java</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">SQL</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">TypeScript</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Frameworks & Librerías</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <span class="skill-name">Angular</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Django</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Flask</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Angular</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Express</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">NestJS</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="skills-category">
+                <h3>DevOps & Herramientas</h3>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <span class="skill-name">Git/GitHub</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Docker</span>
+                        <div class="skill-progress">
+                            <div class="skill-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv">
+        <h2 class="section-title">Currículum Vitae</h2>
+        <div class="cv-section">
+            <p>Accede a mi currículum completo</p>
+            <div class="cv-buttons">
+                <a href="curriculum/joseMiguelRodriguez.pdf" class="cv-button" onclick="downloadCV()">
+                    <span class="button-icon">📥</span>
+                    Descargar CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Portfolio</p>
+        <p>Diseñado y desarrollado con por AstraDev</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
